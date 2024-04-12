@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "1a",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest",
+      "input": null,
+      "output": null,
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "pytest -k 1b",
+      "setup": "",
+      "run": "pytest -k 1b",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "pytest -k 1c",
+      "setup": "",
+      "run": "pytest -k 1c",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "pytest -k 1d",
+      "setup": "",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "pytest -k 1e",
+      "setup": "",
+      "run": "pytest -k 1e",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+// Descritivo :
+//  Faça a multiplicacao do valor de temp 0 por temp 1
+//  salve o resultado em temp 3
+//
+//  temp 3 = temp 0 * temp 1
+//
+//  ambos numeros inteiros
+// ----------------------------------
+
+function Main.main 0
+
